@@ -1,0 +1,107 @@
+/* p {
+  color: yellow;
+  background: red;
+} */
+
+/* div * {
+  width: 50%;
+  font-style: italic;
+  border: 2px solid red;
+}
+div a {
+  background-color: yellow;
+}
+div h1,
+ul {
+  color: white;
+  background-color: blue;
+} */
+.frame {
+  border: 2px solid red;
+}
+p.frame {
+  border: 2px solid Blue;
+  width: 50%;
+}
+#span1 {
+  color: White;
+  background: Red;
+}
+#span2 {
+  color: White;
+  background: Lime;
+}
+#para1 {
+  background: Yellow;
+  width: 70%;
+}
+/* div p {
+  color: White;
+  background: Blue;
+}
+h3 + div {
+  background: Yellow;
+} */
+div > p {
+  color: White;
+  background: Blue;
+}
+h3 ~ div {
+  background: Yellow;
+}
+ol[id] {
+  border: 2px solid Red;
+}
+li[class="reptile"] {
+  background: Red;
+}
+li[class~="animal"] {
+  background: Blue;
+}
+li[class|="cat"] {
+  background: Green;
+}
+li[class*="fi"] {
+  background: Yellow;
+}
+li[class^="top"] {
+  background: Orange;
+}
+li[class$="ird"] {
+  background: Purple;
+}
+
+h2 {
+  color: yellow;
+}
+h2 {
+  background: Red;
+} /* 0,0,0,1 */
+body h2 {
+  background: Blue;
+} /* 0,0,0,2 */
+#header {
+  background: Green;
+} /* 0,1,0,0 */
+h2#header {
+  background: Red;
+} /* 0,1,0,1 */
+h2.head {
+  background: Red;
+} /* 0,0,1,1 */
+body h2.head {
+  background: Green;
+} /* 0,0,1,2 */
+p.repeat {
+  width: 384px;
+  height: 128px;
+  background: LightBlue url(images/pngwing.com.png);
+}
+p.repeat-y {
+  width: 384px;
+  height: 128px;
+  background: DeepSkyBlue url(images/pngwing.com.png) repeat-y top right;
+}
+body {
+  background: url(images/pngwing.com.png) no-repeat bottom right fixed;
+}
